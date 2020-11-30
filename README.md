@@ -11,3 +11,6 @@ pip install pandas
 Now your setup is ready for running this project.
 # Outcome
 <img src="Outcome.png" width=750px>
+This model appears to be performing well in central 10 days of month but it performs very poorly on last 10 days on month.
+The reason could be obvious.This dataset contains a lot of salaryman whose salary runs out at the end of month so actual spike was less then predicted spike.Because model memorizes this trend of initial days where salaryman have more money os they can rent out cycle hence predicted and actual both spikes are high.
+
