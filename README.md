@@ -9,3 +9,5 @@ pip install matplotlib
 pip install pandas
 ```
 Now your setup is ready for running this project.
+# Outcome
+<img src="Outcome.png" width=300px>
